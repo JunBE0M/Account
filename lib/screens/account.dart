@@ -88,7 +88,7 @@ class AccountScreen extends StatelessWidget {
                         ),
                         const SizedBox(width: 20),
                         GestureDetector(
-                          onTap: (){
+                          onDoubleTap: (){
                             SystemNavigator.pop();
                           },
                           child: const Text(
